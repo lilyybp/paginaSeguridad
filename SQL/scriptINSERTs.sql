@@ -29,24 +29,24 @@ INSERT INTO usuario (matricula, password, tipo) VALUES ('A01233188','lily123','A
 INSERT INTO usuario (matricula, password, tipo) VALUES ('A01233107','benji123','Mesa');
 
 -- insert Usuariopermiso
-INSERT INTO usuarioPermiso VALUES (1,'A01233188');
-INSERT INTO usuarioPermiso VALUES (2,'A01233188');
-INSERT INTO usuarioPermiso VALUES (3,'A01233188');
-INSERT INTO usuarioPermiso VALUES (4,'A01233188');
-INSERT INTO usuarioPermiso VALUES (5,'A01233188');
-INSERT INTO usuarioPermiso VALUES (6,'A01233188');
-INSERT INTO usuarioPermiso VALUES (7,'A01233188');
-INSERT INTO usuarioPermiso VALUES (8,'A01233188');
-INSERT INTO usuarioPermiso VALUES (9,'A01233188');
-INSERT INTO usuarioPermiso VALUES (10,'A01233188');
-INSERT INTO usuarioPermiso VALUES (11,'A01233188');
-INSERT INTO usuarioPermiso VALUES (12,'A01233188');
-INSERT INTO usuarioPermiso VALUES (4,'A01233107');
-INSERT INTO usuarioPermiso VALUES (5,'A01233107');
-INSERT INTO usuarioPermiso VALUES (7,'A01233107');
-INSERT INTO usuarioPermiso VALUES (8,'A01233107');
-INSERT INTO usuarioPermiso VALUES (10,'A01233107');
-INSERT INTO usuarioPermiso VALUES (11,'A01233107');
+INSERT INTO usuarioPermiso (id, matricula) VALUES (1,'A01233188');
+INSERT INTO usuarioPermiso (id, matricula) VALUES (2,'A01233188');
+INSERT INTO usuarioPermiso (id, matricula) VALUES (3,'A01233188');
+INSERT INTO usuarioPermiso (id, matricula) VALUES (4,'A01233188');
+INSERT INTO usuarioPermiso (id, matricula) VALUES (5,'A01233188');
+INSERT INTO usuarioPermiso (id, matricula) VALUES (6,'A01233188');
+INSERT INTO usuarioPermiso (id, matricula) VALUES (7,'A01233188');
+INSERT INTO usuarioPermiso (id, matricula) VALUES (8,'A01233188');
+INSERT INTO usuarioPermiso (id, matricula) VALUES (9,'A01233188');
+INSERT INTO usuarioPermiso (id, matricula) VALUES (10,'A01233188');
+INSERT INTO usuarioPermiso (id, matricula) VALUES (11,'A01233188');
+INSERT INTO usuarioPermiso (id, matricula) VALUES (12,'A01233188');
+INSERT INTO usuarioPermiso (id, matricula) VALUES (4,'A01233107');
+INSERT INTO usuarioPermiso (id, matricula) VALUES (5,'A01233107');
+INSERT INTO usuarioPermiso (id, matricula) VALUES (7,'A01233107');
+INSERT INTO usuarioPermiso (id, matricula) VALUES (8,'A01233107');
+INSERT INTO usuarioPermiso (id, matricula) VALUES (10,'A01233107');
+INSERT INTO usuarioPermiso (id, matricula) VALUES (11,'A01233107');
 
 SELECT * FROM usuarioPermiso;
 

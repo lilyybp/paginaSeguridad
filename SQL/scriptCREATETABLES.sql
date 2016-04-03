@@ -29,8 +29,8 @@ CREATE TABLE permiso(
 );
 
 CREATE TABLE usuarioPermiso(
-	id int NOT NULL,
     matricula varchar(10) NOT NULL,
+    id int NOT NULL,
     CONSTRAINT up_pk PRIMARY KEY (id,matricula),
     CONSTRAINT upId_fk FOREIGN KEY (id) REFERENCES permiso(id) ON DELETE CASCADE,
     CONSTRAINT upMatricula_fk FOREIGN KEY (matricula) REFERENCES usuario(matricula) ON DELETE CASCADE
